@@ -11,12 +11,15 @@ img1ByN = cv.imread("Assets\Img1small.jpg",0)
 
 ##-----------------Imagen 2----------------##
 ##Imagen 2 RGB
-img2RGB = cv.imread("Assets\LenaTest.png")
+img2RGB = cv.imread("Assets\Img2small.jpeg",1)
 ##Imagen Escala de Grises
-img2ByN = cv.imread("Assets\LenaTest.png",0)
+img2ByN = cv.imread("Assets\Img2small.jpeg",0)
 
-##cv.imshow('Imagen 1 RGB',img1RGB)
-##cv.imshow('Imagen 1 ByN',img1ByN)
+cv.imshow('Imagen 1 RGB',img1RGB)
+cv.imshow('Imagen 1 ByN',img1ByN)
+
+cv.imshow('Imagen 2 RGB',img2RGB)
+cv.imshow('Imagen 2 ByN',img2ByN)
 
 
 histRGB = cv.calcHist([img1RGB],[1],None,[256],[0,265])
