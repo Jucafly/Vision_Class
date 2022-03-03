@@ -10,7 +10,7 @@ img1 = cv.imread("Assets\Img1small.jpg")
 b,g,r=cv.split(img1)
 
 #Creamos la Tabla
-fig, ax=plt.subplots(2,2)
+fig, ax=plt.subplots(1,2)
 
 ##-------------Imagen Uno---------------##
 #  [1,0]
