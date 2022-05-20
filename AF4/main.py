@@ -8,13 +8,13 @@ def main(argv):
     ##Variales
     profundidad = cv.CV_16S
     matrizkernel1 = 3
-    matrizkernel2 = 3
-    nombreImagen1 = 'Imagen 1'
-    nombreImagen2 = 'Imagen 2'
+    matrizkernel2 = 5
+    nombreImagen1 = 'Imagen 1 Kernel 1'
+    nombreImagen2 = 'Imagen 1 Kernel'
 
     ##Cargando Imagen
-    src1 = cv.imread("Assets\Img1small.jpg", cv.IMREAD_COLOR) 
-    src2 = cv.imread("Assets\Img2small.jpeg", cv.IMREAD_COLOR) 
+    src1 = cv.imread("Assets\Img4small.jpeg", cv.IMREAD_COLOR) 
+    src2 = cv.imread("Assets\Img4small.jpeg", cv.IMREAD_COLOR) 
 
     ## Revisamo si la iagen funciona bien 
     if src1 is None:
